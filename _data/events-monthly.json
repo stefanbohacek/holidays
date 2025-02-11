@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Jewish American Heritage Month",
+    "description": "Annual recognition and celebration of American Jews' achievements and contributions to the United States of America.",
+    "links": [
+      {
+        "title": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jewish_American_Heritage_Month"
+      }
+    ],
+    "month": 5,
+    "tags": ["judaism", "heritage", "national", "national-us"]
+  },
+  {
+    "name": "International Holocaust Remembrance Day",
+    "description": "Commemorating the victims of the Holocaust.",
+    "links": [
+      {
+        "title": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/International_Holocaust_Remembrance_Day"
+      }
+    ],
+    "month": 1,
+    "start_date": "01-27",
+    "end_date": "01-27",
+    "tags": ["judaism", "remembrance", "international"]
+  },
+  {
+    "name": "National Hispanic Heritage Month",
+    "description": "Recognizing the contributions and influence of Hispanic culture to the nation's achievements, culture, and history.",
+    "links": [
+      {
+        "title": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/National_Hispanic_Heritage_Month"
+      }
+    ],
+    "month": 9,
+    "start_date": "09-15",
+    "end_date": "10-15",
+    "tags": ["hispanic", "heritage", "national", "national-us"]
+  },
+  {
+    "name": "Women's History Month",
+    "description": "Highlighting the contributions of women to events in history and contemporary society.",
+    "links": [
+      {
+        "title": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Women%27s_History_Month"
+      }
+    ],
+    "month": 3,
+    "tags": ["women", "history", "national", "national-us", "national-uk", "national-aus"]
+  },
+  {
+    "name": "Pride Month",
+    "description": "Celebration of LGBTQ pride, commemorating the contributions of LGBTQ culture and community.",
+    "links": [
+      {
+        "title": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pride_Month"
+      }
+    ],
+    "month": 7,
+    "tags": ["lgbtqi+", "national", "national-us"]
+  },
+  {
+    "name": "Black History Month",
+    "description": "Remembering important people and events in the history of the African diaspora.",
+    "links": [
+      {
+        "title": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Black_History_Month"
+      }
+    ],
+    "month": 2,
+    "tags": ["lgbtqi+", "national", "national-us"]
+  }
+]

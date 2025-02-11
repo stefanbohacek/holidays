@@ -1,0 +1,109 @@
+[
+  {
+    "name": "Glitch Code Jams",
+    "description": "Create web projects based on a monthly prompt.",
+    "links": [
+      {
+        "title": "glitch.com/jams",
+        "url": "https://glitch.com/jams/"
+      }
+    ],
+    "tags": ["coding"]
+  },
+  {
+    "name": "#100DaysOfCode",
+    "description": "Spend at least an hour coding for the next 100 days.",
+    "links": [
+      {
+        "title": "100daysofcode.com",
+        "url": "https://www.100daysofcode.com/"
+      }
+    ],
+    "tags": ["coding"]
+  },
+  {
+    "name": "The DS106 Daily Create",
+    "description": "Small daily creative challenges in photography, drawing, audio, video, and writing.",
+    "links": [
+      {
+        "title": "daily.ds106.us",
+        "url": "https://daily.ds106.us/"
+      }
+    ],
+    "tags": ["photography", "drawing", "audio", "video", "writing"]
+  },
+  {
+    "name": "Weeklybeats",
+    "description": "Year-long music project in which artists compose and publicly release 1 song a week.",
+    "links": [
+      {
+        "title": "weeklybeats.com",
+        "url": "https://weeklybeats.com/"
+      }
+    ],
+    "tags": ["music"]
+  },
+  {
+    "name": "100 Days To Offload",
+    "description": "Can you publish 100 posts on your blog in a year?",
+    "links": [
+      {
+        "title": "100daystooffload.com",
+        "url": "https://100daystooffload.com/"
+      }
+    ],
+    "tags": ["writing", "blogging"]
+  },
+  {
+    "name": "IndieWeb Carnival",
+    "description": "Blogging about topics related to the IndieWeb.",
+    "links": [
+      {
+        "title": "IndieWeb Carnival on indieweb.org",
+        "url": "https://indieweb.org/IndieWeb_Carnival"
+      }
+    ],
+    "tags": ["writing", "blogging", "internet", "indieweb"]
+  },
+  {
+    "name": "Pixel Dailies",
+    "description": "Daily themed pixel art challenges.",
+    "links": [
+      {
+        "title": "@pixel_dailies on Mastodon",
+        "url": "https://mastodon.art/@pixel_dailies"
+      },
+      {
+        "title": "List of daily challenges",
+        "url": "https://mastodon.art/@pixel_dailies/tagged/pixel_dailies"
+      }
+    ],
+    "tags": ["art", "pixel-art"]
+  },
+  {
+    "name": "That Monthly Zine Project",
+    "description": "An inclusive community of zinesters making monthly zines.",
+    "links": [
+      {
+        "title": "@mozipro on Instagram",
+        "url": "https://www.instagram.com/mozipro/"
+      },
+      {
+        "title": "That Monthly Zine Project on Linktree",
+        "url": "https://linktr.ee/mozipro"
+      }
+    ],
+    "tags": ["zine", "art", "writing"]
+  },
+  {
+    "name": "36 Days of Type",
+    "description": "Challenging participants to design a letter or number each day for 36 consecutive days.",
+    "links": [
+      {
+        "title": "36daysoftype.com",
+        "url": "https://www.36daysoftype.com/"
+      }
+    ],
+    "tags": ["typography", "design", "art"]
+  }
+]
