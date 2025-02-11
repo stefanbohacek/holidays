@@ -12,6 +12,18 @@
     "tags": ["judaism", "heritage", "national", "national-us"]
   },
   {
+    "name": "Indigenous People's Heritage Month",
+    "description": "Honoring and celebrating the culture, traditions, and customs of Indigenous Peoples.",
+    "links": [
+      {
+        "title": "college.lclark.edu",
+        "url": "https://college.lclark.edu/student_life/multicultural_affairs/national-american-indian-and-alaska-native-heritage-month/"
+      }
+    ],
+    "month": 11,
+    "tags": ["indigenous people", "heritage", "national", "national-us"]
+  },
+  {
     "name": "International Holocaust Remembrance Day",
     "description": "Commemorating the victims of the Holocaust.",
     "links": [
