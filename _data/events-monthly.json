@@ -9,7 +9,7 @@
       }
     ],
     "month": 5,
-    "tags": ["jewish", "heritage", "national", "national-us"]
+    "tags": ["jewish", "heritage", "national", "national-usa"]
   },
   {
     "name": "Indigenous People's Heritage Month",
@@ -21,7 +21,7 @@
       }
     ],
     "month": 11,
-    "tags": ["indigenous people", "heritage", "national", "national-us"]
+    "tags": ["indigenous people", "heritage", "national", "national-usa"]
   },
   {
     "name": "International Holocaust Remembrance Day",
@@ -49,7 +49,7 @@
     "month": 9,
     "start_date": "09-15",
     "end_date": "10-15",
-    "tags": ["hispanic", "heritage", "national", "national-us"]
+    "tags": ["hispanic", "heritage", "national", "national-usa"]
   },
   {
     "name": "Women's History Month",
@@ -61,7 +61,7 @@
       }
     ],
     "month": 3,
-    "tags": ["women", "history", "national", "national-us", "national-uk", "national-aus"]
+    "tags": ["women", "history", "national", "national-usa", "national-uk", "national-australia"]
   },
   {
     "name": "Pride Month",
@@ -73,7 +73,7 @@
       }
     ],
     "month": 6,
-    "tags": ["lgbtqi+", "national", "national-us"]
+    "tags": ["lgbtqi+", "national", "national-usa"]
   },
   {
     "name": "Black History Month",
@@ -85,6 +85,6 @@
       }
     ],
     "month": 2,
-    "tags": ["black people", "history", "national", "national-us"]
+    "tags": ["black people", "history", "national", "national-usa"]
   }
 ]
