@@ -9,9 +9,14 @@ eleventyNavigation:
 <div class="px-2 px-md-4 py-5 mb-5 bg-body-tertiary rounded-bottom" style="margin-top: -8px;">
   <div class="container-fluid">
     <h1 class="text-body display-5 fw-bold">{{ site.title }}</h1>
-    <p class="col-md-8 fs-5">
-      Created by <a rel="me" href="https://stefanbohacek.online/@stefan">Stefan Bohacek</a> as a response to Google <a href="https://www.theverge.com/news/608858/google-calendar-missing-events-holidays">removing several inclusive holidays from their calendar</a>.
-    </p>
+    <div class="col-md-10 fs-5">
+      <p>
+        Created by <a rel="me" href="https://stefanbohacek.online/@stefan">Stefan Bohacek</a> as a response to Google <a href="https://www.theverge.com/news/608858/google-calendar-missing-events-holidays">removing several inclusive holidays from their calendar</a>.
+      </p>
+      <p>
+        <a href="https://github.com/stefanbohacek/holidays/blob/main/CONTRIBUTING.md">See how you can contribute.</a>
+      </p>
+    </div>
     <form class="fsb-prompt">
       <label>Share this page from your fediverse server</label>
       <div class="fsb-input-group mb-3">
