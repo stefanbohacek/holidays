@@ -4,7 +4,7 @@
 
 ## How to contribute
 
-If you'd like to propose a new holiday to be added, you can either reach out to me [via email or on Mastodon](https://stefanbohacek.com/contact/), or if you prefer direct contribution to the project, you can add the event to the [events-monthly.json](https://github.com/stefanbohacek/holidays/blob/main/_data/events-monthly.json) file in the following format:
+If you'd like to propose a new holiday to be added, you can either reach out [via email or on Mastodon](https://stefanbohacek.com/contact/), or if you prefer direct contribution to the project, you can add the event to the [events-monthly.json](https://github.com/stefanbohacek/holidays/blob/main/_data/events-monthly.json) file in the following format:
 
 
 ```json
