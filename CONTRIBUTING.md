@@ -24,10 +24,11 @@ If you'd like to propose a new holiday to be added, you can either reach out [vi
 
 For national holidays, be sure to include the `national` tag, and also tags that include a name of the country where the holiday is celebrated, for example `national-usa` or `national-australia`.
 
-For source links, Wikipedia articles are prefered. For holidays that have a specific start and end date (which may be the same), use the `start_date` and `end_date` fields:
+For source links, Wikipedia articles are prefered. For holidays that have a specific start and end date (which may be the same), use the `start_date` and `end_date` fields using a `"MM-DD"` format, for example:
 
 ```json
 {
+  //...
   "start_date": "09-15",
   "end_date": "10-15"
 }
