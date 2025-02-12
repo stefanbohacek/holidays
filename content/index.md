@@ -42,23 +42,17 @@ eleventyNavigation:
 </div>
 
 <div class="btn-toolbar mb-3 sticky-top bg-body px-md-4 py-4" role="toolbar" aria-label="Toolbar with button groups">
-  <div id="quicklinks" class="btn-group btn-group-sm me-2" role="group" aria-label="First group">
-  <!--
-    <a href="#monthly-events" class="btn btn-outline-secondary">Monthly</a>
-    <a href="#weekly-events" class="btn btn-outline-secondary">Weekly</a>
-    <a href="#ongoing-events" class="btn btn-outline-secondary">Ongoing</a>
-  -->
-  </div>
+  <div id="quicklinks" class="btn-group btn-group-sm me-2" role="group"></div>
   <div class="input-group mt-3 mt-md-0">
     <div class="input-group-text" id="btnGroupAddon">🔎</div>
     <input type="search" id="search-input" type="text" class="form-control" placeholder="Description or #tag">
   </div>
 </div>
 
-<div id="monthly-events" class="mt-n5 position-absolute"></div>
+<div id="holiday-list" class="mt-n5 position-absolute"></div>
 <div class="mt-4 px-md-4">
   <!-- <h2 class="mt-3 bg-body text-body">Monthly holidays</h2> -->
-  {% for month in events.monthly %}
+  {% for month in holidays %}
   <div id="month-{{ month[0] }}" class="mt-n5 position-absolute"></div>
   <div class="result-section">
     <h3 class="sticky-top text-body bg-body py-2">{{ month[0] }}</h3>
@@ -67,7 +61,7 @@ eleventyNavigation:
           {% for event in month[1] %}
           <li class="result-item">
             <strong>{{ event.name }}</strong>: {{ event.description}}
-            {% for tag in event.tags %}<sup role="button" class="tag-badge z-0 badge rounded-pill text-bg-info me-1">#{{tag}}</sup>{% endfor %}
+            <span class="mt-2 mb-3 d-inline-block d-md-inline">{% for tag in event.tags %}<span role="button" class="tag-badge z-0 badge rounded-pill text-bg-info me-1">#{{tag}}</span>{% endfor %}</span>
             <ul>{% for link in event.links %}<li><a href="{{link.url}}">{{link.title}}</a></li>{% endfor %}</ul>
             <div class="mt-3">
               <add-to-calendar-button
@@ -86,63 +80,10 @@ eleventyNavigation:
           {% endfor %}
         </ul>
       {% else %}
-        <p class="text-secondary result-item">No events.</p>
+        <p class="text-secondary result-item">No holidays.</p>
       {% endif %}
   </div>
   {% endfor %}
 </div>
-<div id="weekly-events" class="mt-n5 position-absolute"></div>
 <div class="mt-4 px-md-4">
-<!--
-<h2 class="mt-3 text-body bg-body">Weekly events</h2>
-  {% for week in events.weekly %}
-  <div id="day-{{ week[0] }}" class="mt-n5 position-absolute"></div>
-  <div class="result-section">
-    <h3 class="sticky-top text-body bg-body py-2">{{ week[0] }}</h3>
-      {% if week[1][0] %}
-        <ul>
-          {% for event in week[1] %}
-          <li class="result-item">
-            <strong>{{ event.name }}</strong>: {{ event.description}}
-            {% for tag in event.tags %}<sup role="button" class="tag-badge z-0 badge rounded-pill text-bg-info me-1">#{{tag}}</sup>{% endfor %}
-            <ul>{% for link in event.links %}<li><a href="{{link.url}}">{{link.title}}</a></li>{% endfor %}</ul>
-            <div class="mt-3">
-              <add-to-calendar-button
-                name="{{ event.name }}"
-                description="{{ event.description}}[br]{% for link in event.links %}[br]- {{link.url}}{% endfor %}"
-                location="{{ event.links[0].url }}"
-                startDate="{{ event.start_date }}"
-                endDate="{{ event.end_date }}"
-                recurrence="weekly"
-                options="'Apple', 'Google', 'iCal', 'Microsoft365', 'MicrosoftTeams', 'Outlook.com', 'Yahoo'"
-                size="1"
-                hideCheckmark="true"
-              ></add-to-calendar-button>
-            </div>
-          </li>
-          {% endfor %}
-        </ul>
-      {% else %}
-        <p class="text-secondary result-item">No events.</p>
-      {% endif %}    
-  </div>
-  {% endfor %}
-</div>
-<div id="ongoing-events" class="mt-n5 position-absolute"></div>
-<div class="mt-4 px-md-4">
-  <h2 class="mt-5 text-body">Ongoing events</h2>
-    <div class="result-section">
-      <ul>
-        {% for event in events.ongoing %}
-        <li class="result-item">
-          <strong>{{ event.name }}</strong>: {{ event.description}}
-          {% for tag in event.tags %}<sup role="button" class="tag-badge z-0 badge rounded-pill text-bg-info me-1">#{{tag}}</sup>{% endfor %}
-          <ul>{% for link in event.links %}<li><a href="{{link.url}}">{{link.title}}</a></li>{% endfor %}</ul>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</div>
--->
 <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>

@@ -38,7 +38,7 @@ export default (fn) => {
           [...section.querySelectorAll(".result-item")].filter((result) => {
             return (
               !result.classList.contains("d-none") &&
-              !result.innerText.includes("No events.")
+              !result.innerText.includes("No holidays.")
             );
           }).length === 0
         ) {
