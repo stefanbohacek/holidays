@@ -86,5 +86,17 @@
     ],
     "month": 2,
     "tags": ["black people", "history", "national", "national-usa"]
+  },
+  {
+    "name": "Asian American Heritage Month",
+    "description": "Recognizing the contributions and influence of Asian Americans, Native Hawaiians and other Pacific Islander Americans to the nation's achievements, culture, and history.",
+    "links": [
+      {
+        "title": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Asian_American_and_Pacific_Islander_Heritage_Month"
+      }
+    ],
+    "month": 5,
+    "tags": ["asian", "hawaiian", "pacific islander", "heritage", "national", "national-usa"]
   }
 ]
