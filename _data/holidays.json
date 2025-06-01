@@ -73,7 +73,7 @@
       }
     ],
     "month": 6,
-    "tags": ["lgbtqi+", "national", "national-usa"]
+    "tags": ["lgbtqi+", "pride", "national", "national-usa"]
   },
   {
     "name": "Black History Month",
@@ -98,5 +98,86 @@
     ],
     "month": 5,
     "tags": ["asian", "hawaiian", "pacific islander", "heritage", "national", "national-usa"]
+  },
+  {
+    "name": "International Transgender Day of Remembrance",
+    "description": "Remembering the victims of transphobia.",
+    "links": [
+      {
+        "title": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Transgender_Day_of_Remembrance"
+      }
+    ],
+    "month": 11,
+    "start_date": "11-20",
+    "end_date": "11-20",
+    "tags": ["lgbtqi+", "remembrance", "international"]
+  },
+  {
+    "name": "International Transgender Day of Visibility",
+    "description": "Celebrating transgender people and their contributions to society, and raising awareness of discrimination they face.",
+    "links": [
+      {
+        "title": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/International_Transgender_Day_of_Visibility"
+      }
+    ],
+    "month": 3,
+    "start_date": "03-31",
+    "end_date": "03-31",
+    "tags": ["lgbtqi+", "visibility", "international"]
+  },
+  {
+    "name": "Juneteenth",
+    "description": "Commemorating the ending of slavery in the United States.",
+    "links": [
+      {
+        "title": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Juneteenth"
+      }
+    ],
+    "month": 6,
+    "start_date": "06-19",
+    "end_date": "06-19",
+    "tags": ["black people", "history", "national", "national-usa"]
+  },
+  {
+    "name": "National Coming Out Day",
+    "description": "Celebration of the LGBTQI+ community's progress in fighting for equal rights.",
+    "links": [
+      {
+        "title": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/National_Coming_Out_Day"
+      }
+    ],
+    "month": 10,
+    "start_date": "10-11",
+    "end_date": "10-11",
+    "tags": ["lgbtqi+", "national", "national-usa"]
+  },
+  {
+    "name": "Disability Pride Month",
+    "description": "Celebrating people with disabilities, their identities, their culture, and their contributions to society.",
+    "links": [
+      {
+        "title": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Disability_Pride_Month"
+      }
+    ],
+    "month": 7,
+    "tags": ["disability", "pride", "international"]
+  },
+  {
+    "skip": true,
+    "name": "Autism Acceptance Month",
+    "description": "Recognizing the unique strengths and experiences of people with autism, and promoting their acceptance and inclusion.",
+    "links": [
+      {
+        "title": "autismsociety.org",
+        "url": "https://autismsociety.org/autism-acceptance-month/"
+      }
+    ],
+    "month": 7,
+    "tags": ["disability", "autism", "international"]
   }
 ]

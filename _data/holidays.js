@@ -55,7 +55,7 @@ const daysInMonth = (month) => {
 let holidays = sortArrayOfObjectsByKey(
   JSON.parse(fs.readFileSync(path.resolve(__dirname, "holidays.json"))),
   "month"
-);
+).filter(holiday => holiday.skip !== true);
 
 holidays.forEach((event) => {
   if (event.start_date) {
