@@ -47,6 +47,7 @@ eleventyNavigation:
     <div class="input-group-text" id="btnGroupAddon">🔎</div>
     <input type="search" id="search-input" type="text" class="form-control" placeholder="Description or #tag">
   </div>
+  <button id="download-all" class="btn btn-outline-secondary ms-3">Download all</button>
 </div>
 
 <div id="holiday-list" class="mt-n5 position-absolute"></div>
@@ -59,8 +60,11 @@ eleventyNavigation:
       {% if month[1][0] %}
         <ul>
           {% for event in month[1] %}
-          <li class="result-item">
-            <strong>{{ event.name }}</strong>: {{ event.description}}
+          <li class="result-item"
+            data-start-date="{{event.start_date}}"
+            data-end-date="{{event.end_date}}"
+          >
+            <strong class="event-title">{{ event.name }}</strong>: <span class="event-description">{{ event.description}}</span>
             <span class="mt-2 mb-3 d-inline-block d-md-inline">{% for tag in event.tags %}<span role="button" class="tag-badge z-0 badge rounded-pill text-bg-info me-1">#{{tag}}</span>{% endfor %}</span>
             <ul>{% for link in event.links %}<li><a href="{{link.url}}">{{link.title}}</a></li>{% endfor %}</ul>
             <div class="mt-3">
