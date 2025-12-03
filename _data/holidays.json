@@ -179,5 +179,18 @@
     ],
     "month": 7,
     "tags": ["disability", "autism", "international"]
+  },
+  {
+    "name": "International Day of Persons with Disabilities",
+    "description": "Promoting an understanding of disability issues and mobilizing support for the dignity, rights and well-being of persons with disabilities.",
+    "links": [
+      {
+        "title": "un.org",
+        "url": "https://www.un.org/en/observances/day-of-persons-with-disabilities"
+      }
+    ],
+    "start_date": "12-03",
+    "end_date": "12-03",
+    "tags": ["disability", "autism", "international"]
   }
 ]
