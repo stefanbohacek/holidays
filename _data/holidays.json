@@ -61,7 +61,14 @@
       }
     ],
     "month": 3,
-    "tags": ["women", "history", "national", "national-usa", "national-uk", "national-australia"]
+    "tags": [
+      "women",
+      "history",
+      "national",
+      "national-usa",
+      "national-uk",
+      "national-australia"
+    ]
   },
   {
     "name": "Pride Month",
@@ -97,7 +104,14 @@
       }
     ],
     "month": 5,
-    "tags": ["asian", "hawaiian", "pacific islander", "heritage", "national", "national-usa"]
+    "tags": [
+      "asian",
+      "hawaiian",
+      "pacific islander",
+      "heritage",
+      "national",
+      "national-usa"
+    ]
   },
   {
     "name": "International Transgender Day of Remembrance",
@@ -189,6 +203,7 @@
         "url": "https://www.un.org/en/observances/day-of-persons-with-disabilities"
       }
     ],
+    "month": 12,
     "start_date": "12-03",
     "end_date": "12-03",
     "tags": ["disability", "international"]
